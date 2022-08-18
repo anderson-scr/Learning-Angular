@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <h4>Server's list</h4>
+      <hr>
+      <div class="container" *ngFor="
+        let server of serversList; let idx = index
+      ">
+        <app-server [serverName]="server" ></app-server>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <input type="text" class="form-control" [(ngModel)]="serverNameValue" (input)="userEntry($event)" >
+    <div class="container d-flex justify-content-center">
+      <button class="btn btn-primary mt-3 w-50 align-center" (click)="addServer()" [disabled]="!enableAddServer" >
+        Add server
+      </button>
+    </div>
+  </div>
+</div>
