@@ -1,9 +1,10 @@
 # PrimeiroProjeto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
+This is my first contact with Angular. Im current learning cause the companny i work for have a project to migrate their application to Angular, and i want to help and be part of this big project.
 
 ## Development server
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
